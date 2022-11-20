@@ -3113,7 +3113,8 @@ MonoBehaviour:
   - {fileID: 845732198783497550}
   postExecutionNodes: []
   type: 1
-  nodes: []
+  nodes:
+  - {fileID: 5625704565120044950}
 --- !u!54 &5625704565120044946
 Rigidbody:
   m_ObjectHideFlags: 0
