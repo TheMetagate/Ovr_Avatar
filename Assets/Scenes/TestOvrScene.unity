@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &191980060 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4211877992905711476, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-  m_PrefabInstance: {fileID: 2158065930323893620}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a96c3ae8101d904f83f3e4a42bfe4fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,17 +216,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: 90, z: 0}
---- !u!114 &745824083 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 985845691355317036, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-  m_PrefabInstance: {fileID: 2158065930323893620}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a96c3ae8101d904f83f3e4a42bfe4fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,28 +299,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1612859735 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4611802144819376984, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-  m_PrefabInstance: {fileID: 2158065930323893620}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e98608df892b5bc4bb16c218fd9f8a12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2142958530 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5207779743592437827, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-  m_PrefabInstance: {fileID: 2158065930323893620}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e98608df892b5bc4bb16c218fd9f8a12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2158065930323893620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -398,25 +354,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: OvrAvatar3.0
       objectReference: {fileID: 0}
-    - target: {fileID: 2723174215231432656, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-      propertyPath: satisfiedConditionNodes.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2723174215231432656, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-      propertyPath: satisfiedConditionNodes.Array.data[1]
-      value: 
-      objectReference: {fileID: 745824083}
-    - target: {fileID: 2723174215231432656, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-      propertyPath: satisfiedConditionNodes.Array.data[2]
-      value: 
-      objectReference: {fileID: 191980060}
-    - target: {fileID: 2723174215231432656, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-      propertyPath: satisfiedConditionNodes.Array.data[3]
-      value: 
-      objectReference: {fileID: 2142958530}
-    - target: {fileID: 2723174215231432656, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
-      propertyPath: satisfiedConditionNodes.Array.data[4]
-      value: 
-      objectReference: {fileID: 1612859735}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d532a831cff1fee48b46a660187c59a2, type: 3}
