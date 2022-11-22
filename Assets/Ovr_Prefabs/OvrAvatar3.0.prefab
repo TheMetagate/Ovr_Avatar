@@ -3878,7 +3878,7 @@ MonoBehaviour:
   preExecutionNodes: []
   postExecutionNodes: []
   target: {fileID: 64629030840702989}
-  actionType: 3
+  actionType: 2
   targetPosition: {fileID: 0}
   targetRotation: {fileID: 2168619138589707391}
   targetScale: {fileID: 0}
