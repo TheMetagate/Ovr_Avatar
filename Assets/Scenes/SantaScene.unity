@@ -595,7 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variableType: 3
   id: 
-  variable: 4
+  variable: 0.01
 --- !u!1 &247238176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,9 +1749,8 @@ MonoBehaviour:
   ovrConditions:
   - {fileID: 1157795822}
   satisfiedConditionNodes:
-  - {fileID: 1999997726}
-  unsatisfiedConditionNodes:
-  - {fileID: 541442552}
+  - {fileID: 494652069}
+  unsatisfiedConditionNodes: []
 --- !u!1 &1139883859
 GameObject:
   m_ObjectHideFlags: 0
