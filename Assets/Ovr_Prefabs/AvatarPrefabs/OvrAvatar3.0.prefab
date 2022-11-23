@@ -3083,7 +3083,7 @@ GameObject:
   - component: {fileID: 2158065932007836889}
   - component: {fileID: 2158065932007836888}
   m_Layer: 0
-  m_Name: OvrAvatar3
+  m_Name: OvrAvatar3.0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
