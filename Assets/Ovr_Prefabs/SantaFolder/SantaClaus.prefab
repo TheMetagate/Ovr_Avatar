@@ -475,13 +475,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445624657500348853}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.6, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8207428375915349630}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4200311446769772445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2556,7 +2556,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4fde54589ec87ec479dc24bea2652750, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6049,7 +6049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variableType: 5
   id: 
-  variable: {x: -1, y: 0, z: 8}
+  variable: {x: -1, y: -1, z: 8}
 --- !u!1 &8207428377319271329
 GameObject:
   m_ObjectHideFlags: 0
@@ -6703,12 +6703,12 @@ MonoBehaviour:
   preExecutionNodes: []
   postExecutionNodes: []
   nodes:
-  - {fileID: 3742346287872225484}
   - {fileID: 8207428376837931017}
   - {fileID: 8207428377337565491}
   - {fileID: 8207428377495671528}
   - {fileID: 8207428376032623789}
   - {fileID: 8207428377966695740}
+  - {fileID: 3742346287872225484}
   - {fileID: 8207428377917917644}
   - {fileID: 8207428376810447354}
   - {fileID: 8207428377676569876}
