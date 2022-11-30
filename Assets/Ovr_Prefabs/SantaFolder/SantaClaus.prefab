@@ -3032,7 +3032,7 @@ MonoBehaviour:
   nodeId: OpenUrl
   preExecutionNodes: []
   postExecutionNodes: []
-  url: https://www.chess.com/
+  url: https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=90c29ec6-7a38-40ef-bd2c-43aa9ead638c&token=5a55d40d-ac66-4956-9cf0-5b9e7e353ae6&response=smartphone
 --- !u!1 &6547973826663261857
 GameObject:
   m_ObjectHideFlags: 0
