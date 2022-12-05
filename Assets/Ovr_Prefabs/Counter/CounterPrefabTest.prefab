@@ -6516,8 +6516,10 @@ MonoBehaviour:
   satisfiedConditionNodes:
   - {fileID: 1683689567966514835}
   - {fileID: 1683689567630209832}
+  - {fileID: 1683689566754639515}
   unsatisfiedConditionNodes:
   - {fileID: 1683689566669738558}
+  - {fileID: 1683689567967444656}
   - {fileID: 1006387332}
 --- !u!1 &1683689568444700392
 GameObject:
@@ -6650,6 +6652,7 @@ MonoBehaviour:
   satisfiedConditionNodes:
   - {fileID: 4548297823840724460}
   - {fileID: 1683689567206915836}
+  - {fileID: 1683689568028884018}
   unsatisfiedConditionNodes:
   - {fileID: 1683689568332950589}
 --- !u!1 &1683689568496706571
@@ -6971,7 +6974,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1683689568687943927}
-  - component: {fileID: 1683689568687943924}
+  - component: {fileID: 8286089659681853892}
   m_Layer: 0
   m_Name: DeactiveCanvas
   m_TagString: Untagged
@@ -6993,7 +6996,7 @@ Transform:
   m_Father: {fileID: 1624720636680870581}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1683689568687943924
+--- !u!114 &8286089659681853892
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7011,9 +7014,9 @@ MonoBehaviour:
   unityEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2028525766687149014}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+      - m_Target: {fileID: 2028525766687148843}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8254,7 +8257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ovrLightModifierData: {fileID: 2028525765574199447}
-  ovrCanvas: {fileID: 2028525766687148841}
+  ovrCanvas: {fileID: 124404962301411056}
   ovrPoap: {fileID: 0}
   ovrGeneralSettings: {fileID: 2028525765574199444}
 --- !u!1 &2028525766162258385
@@ -8549,9 +8552,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2028525766687148840}
   - component: {fileID: 2028525766687148843}
-  - component: {fileID: 2028525766687148841}
   - component: {fileID: 2028525766687148842}
   - component: {fileID: 3862154037134645690}
+  - component: {fileID: 124404962301411056}
   m_Layer: 0
   m_Name: CanvasManager
   m_TagString: Untagged
@@ -8600,20 +8603,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &2028525766687148841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028525766687149014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f11dba321be01c4b93fdb28f7900030, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 2028525766687148843}
-  panel: {fileID: 2028525765486358670}
 --- !u!114 &2028525766687148842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8654,6 +8643,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &124404962301411056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028525766687149014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f11dba321be01c4b93fdb28f7900030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 2028525766687148843}
+  panel: {fileID: 2028525765486358670}
 --- !u!1 &2028525766747032985
 GameObject:
   m_ObjectHideFlags: 0
@@ -11677,7 +11680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variableType: 2
   id: 
-  variable: 0
+  variable: 6
 --- !u!1 &3164320848242878984
 GameObject:
   m_ObjectHideFlags: 0
@@ -16967,7 +16970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variableType: 2
   id: 
-  variable: 0
+  variable: 5
 --- !u!1 &5119599336306788653
 GameObject:
   m_ObjectHideFlags: 0
@@ -20591,7 +20594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variableType: 2
   id: 
-  variable: 0
+  variable: 4
 --- !u!1 &6921638374041517951
 GameObject:
   m_ObjectHideFlags: 0
@@ -24681,7 +24684,7 @@ MonoBehaviour:
   satisfiedConditionNodes:
   - {fileID: 8067358454406887714}
   - {fileID: 9072831992856360283}
-  - {fileID: 1683689568687943924}
+  - {fileID: 8286089659681853892}
   unsatisfiedConditionNodes:
   - {fileID: 195241684990653329}
 --- !u!1 &9038857859044819788
