@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1705359949334398592}
-  panel: {fileID: 1705359950283717925}
+  panel: {fileID: 2873263316307160234}
 --- !u!114 &1705359949334398593
 MonoBehaviour:
   m_ObjectHideFlags: 0
