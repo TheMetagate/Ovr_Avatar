@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a1a551bd0ac0e4b81b539cafb731b0, type: 3}
+  m_Name: PrefabInstantiatorSettings
+  m_EditorClassIdentifier: 
+  ovrAsset: {fileID: 5592041090442090035, guid: f9a24b672969abe4784fb0e5972f3183,
+    type: 3}
+  ovrCanvas: {fileID: 6383305665619458208, guid: aa778613d5b872f4e8fcfb4ba914b7f4,
+    type: 3}
+  ovrPlayerSimulator: {fileID: 8441291277820570856, guid: 581c06aef12c7774fa58de4bdac53fe6,
+    type: 3}
+  ovrArWorldCanvas: {fileID: 9119039147896103598, guid: 4a982bb23489c8c40bcaea16541b069e,
+    type: 3}
+  ovrClickableObject: {fileID: 7190812819225655566, guid: d433d76ce6135f94e8dbee3a489d298b,
+    type: 3}
+  ovrColliderTrigger: {fileID: 2969766365598210716, guid: bc0410e0d0d5b784ebf68f1846dc3e1c,
+    type: 3}
+  ovrUIButton: {fileID: 7807868611984315737, guid: 6c716787627876e438c59a6cfeb0040a,
+    type: 3}
+  chromaKeyVideoPlayer: {fileID: 7426250001640926202, guid: 79d85ceb6885af6439e2b5e2350e06ef,
+    type: 3}
