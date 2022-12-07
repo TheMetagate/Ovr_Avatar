@@ -8762,7 +8762,7 @@ GameObject:
   - component: {fileID: 2028525765574199444}
   - component: {fileID: 2028525765574199445}
   m_Layer: 0
-  m_Name: CounterPrefabTest
+  m_Name: NumberCodeToWalkshow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
