@@ -34,7 +34,7 @@ namespace Over
         [SerializeField]
         protected string variable;
         public string TypedVariable { get => variable; set => variable = value; }
-        public override object Variable { get => variable; set => throw new System.NotImplementedException(); }
+        public override object Variable { get => variable; set => variable = (string) value; }
 
         protected override void OnValidate()
         {
@@ -81,7 +81,7 @@ namespace Over
                     result.Variable = ovrVariable2.Variable.ToString();
                     break;
                 case StringFunctionType.Addition:
-                    result.Variable = ovrVariable2.Variable.ToString() + ovrVariable3.ToString();                
+                    result.Variable = ovrVariable2.Variable.ToString() + ovrVariable3.Variable.ToString();                
                     break;
             }
         }
